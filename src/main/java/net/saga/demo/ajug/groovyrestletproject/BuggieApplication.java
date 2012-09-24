@@ -15,10 +15,6 @@ public class BuggieApplication extends Application {
     private Verifier verifier;
 
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-
     public BuggieApplication() {
         MapVerifier verifier = new MapVerifier();
         verifier.getLocalSecrets().put("scott", "tiger".toCharArray());
